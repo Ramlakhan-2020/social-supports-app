@@ -1,0 +1,100 @@
+{
+    "step1": {
+      "title": "Personal Information",
+      "name": "Full Name",
+      "nationalId": "National ID",
+      "dob": "Date of Birth",
+      "gender": "Gender",
+      "selectGender": "Select Gender",
+      "genderOptions": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "selectCountry": "Select Country",
+      "countryOptions": {
+        "us": "United States",
+        "ca": "Canada",
+        "uk": "United Kingdom"
+      },
+      "phone": "Phone Number",
+      "email": "Email Address"
+    },
+    "step2": {
+      "title": "Family & Financial Information",
+      "maritalStatus": "Marital Status",
+      "selectMaritalStatus": "Select Marital Status",
+      "maritalOptions": {
+        "single": "Single",
+        "married": "Married",
+        "divorced": "Divorced",
+        "widowed": "Widowed"
+      },
+      "dependents": "Number of Dependents",
+      "employmentStatus": "Employment Status",
+      "selectEmploymentStatus": "Select Employment Status",
+      "employmentOptions": {
+        "employed": "Employed",
+        "unemployed": "Unemployed",
+        "student": "Student",
+        "retired": "Retired"
+      },
+      "monthlyIncome": "Monthly Income",
+      "housingStatus": "Housing Status",
+      "selectHousingStatus": "Select Housing Status",
+      "housingOptions": {
+        "own": "Own Home",
+        "rent": "Renting",
+        "homeless": "Homeless",
+        "other": "Other"
+      }
+    },
+    "step3": {
+      "title": "Describe Your Situation",
+      "financialSituation": "Current Financial Situation",
+      "employmentCircumstances": "Employment Circumstances",
+      "reasonForApplying": "Reason for Applying",
+      "helpMeWrite": "Help Me Write",
+      "prompts": {
+        "financialSituation": "I earn {{income}} per month and my employment status is {{employment}}. Help me describe my financial hardship.",
+        "employmentCircumstances": "My employment status is {{employment}}. Help me describe my employment circumstances.",
+        "reasonForApplying": "I have {{dependents}} dependents and my housing status is {{housing}}. Help me explain why I need financial assistance."
+      }
+    },
+    "aiModal": {
+      "title": "AI Writing Assistance",
+      "generate": "Generate Suggestion",
+      "useText": "Use This Text",
+      "cancel": "Cancel"
+    },
+    "validation": {
+      "required": "This field is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneInvalid": "Please enter a valid phone number",
+      "minZero": "Value must be zero or greater"
+    },
+    "navigation": {
+      "next": "Next",
+      "back": "Back",
+      "submit": "Submit Application",
+      "submitting": "Submitting...",
+      "success": "Application submitted successfully!"
+    },
+    "aiErrors": {
+      "apiError": "Failed to generate text. Please try again.",
+      "generationFailed": "Text generation failed"
+    },
+    "aiResponses": {
+      "financialSituation": "I am currently facing significant financial difficulties. With my limited income and current employment status, I'm struggling to meet basic living expenses including food, housing, and utilities. This financial strain has made it difficult to provide for myself and my family's essential needs.",
+      "employmentCircumstances": "I am currently unemployed and actively seeking work. Despite my best efforts to secure employment, I have been unable to find stable work that would provide sufficient income to support myself and my dependents. This lack of employment has created significant financial hardship.",
+      "reasonForApplying": "I am applying for financial assistance because my current circumstances have made it impossible to meet basic needs. With limited income and dependents to support, I require temporary assistance to help cover essential expenses while I work to improve my financial situation."
+    },
+    "formsubmit":{
+      "successMessage": "Form Submitted Successfully!",
+      "successbackButton": "Go to Home"
+    }
+  }
