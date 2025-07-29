@@ -66,11 +66,13 @@
       }
     },
     "aiModal": {
-      "title": "AI Writing Assistance",
-      "generate": "Generate Suggestion",
-      "useText": "Use This Text",
-      "cancel": "Cancel"
-    },
+      "title": "Let AI Help You Write",
+      "generate": "Generate",
+      "cancel": "Cancel",
+      "useText": "Use this text",
+      "emptyResponse": "The AI returned an empty result.",
+      "unknownError": "An unexpected error occurred. Please try again."
+    },    
     "validation": {
       "required": "This field is required",
       "emailInvalid": "Please enter a valid email address",

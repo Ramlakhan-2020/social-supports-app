@@ -14,10 +14,16 @@ const HelpMeWriteModal = ({ isOpen, onClose, onGenerate, onAccept }) => {
     setError(null);
     try {
       const text = await onGenerate();
+      if (!text || typeof text !== 'string') {
+        throw new Error(t('aiModal.emptyResponse') || 'Empty response from server.');
+      }
       setSuggestion(text);
       setEditedText(text);
     } catch (err) {
-      setError(err.message);
+      const message =
+      err?.message ||
+      (typeof err === 'string' ? err : t('aiModal.unknownError') || 'Something went wrong');
+       setError(message);
     } finally {
       setIsLoading(false);
     }

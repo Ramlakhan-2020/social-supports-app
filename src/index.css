@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* RTL support */
 [dir="rtl"] {
-    direction: rtl;
-  }
-  
-  /* Additional RTL-specific styles if needed */
-  [dir="rtl"] .text-start {
-    text-align: right;
-  }
+  direction: rtl;
+}
+
+[dir="rtl"] .text-start {
+  text-align: right;
+}
